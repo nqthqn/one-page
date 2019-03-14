@@ -1,0 +1,11 @@
+:root {
+  --theme: rgb(48, 129, 109);
+  --font: 'Georgia', serif; }
+
+body {
+  background: var(--theme); }
+  body h1 {
+    color: white;
+    font-family: var(--font);
+    letter-spacing: 1px;
+    font-size: 2rem; }

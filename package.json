@@ -1,0 +1,25 @@
+{
+  "name": "one-page",
+  "version": "1.0.0",
+  "description": "Just want one stupid page? Use this as a boilerplate — include live reloading, scss compile, minify and cache bust.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run scss & npm run serve",
+    "serve": "live-server",
+    "scss": "npx node-sass -w style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nqthqn/one-page.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nqthqn/one-page/issues"
+  },
+  "homepage": "https://github.com/nqthqn/one-page#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "live-server": "^1.2.1"
+  }
+}

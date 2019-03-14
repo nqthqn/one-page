@@ -1,0 +1,18 @@
+
+// Do whatever you want!
+
+:root {
+    --theme: rgb(48, 129, 109);
+    --font: 'Georgia', serif;
+}
+
+body {
+    background: var(--theme);
+    
+    h1 {
+        color: rgb(255, 255, 255);
+        font-family: var(--font);
+        letter-spacing: 1px;
+        font-size: 2rem;
+    }
+}
